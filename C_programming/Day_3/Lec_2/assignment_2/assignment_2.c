@@ -7,7 +7,7 @@ void main(void)
 	
 	int i,j;
 	int passed=0,failed=0;
-	int min=0,max=0,sum=0;
+	int min,max,sum=0;
 	
 	for (int i = 0 ; i < 10 ; i++)
 	{
@@ -57,7 +57,7 @@ void main(void)
 		}
 	}
 
-
+// Get heighest & lowest
 	for ( i =1 ; i <= 3 ; i++)
 	{
 		for (j=0 ; j<10 ; j++)
@@ -73,6 +73,8 @@ void main(void)
 					passed++;
 				else
 					failed++;
+
+
 				sum+=class_1[j];
 			}
 			
@@ -87,6 +89,7 @@ void main(void)
 					passed++;
 				else
 					failed++;
+				
 				sum+=class_2[j];
 			}
 			if (i==3)
@@ -100,6 +103,7 @@ void main(void)
 					passed++;
 				else
 					failed++;
+				
 				sum+=class_3[j];
 			}
 		}

@@ -1,12 +1,4 @@
-/** @file Std_Types.h
- * 
- * @brief A header file including standard C data types. 
- *
- * @author Amir Shetaia
- * @version 1.0
- * @date Aug 10, 2021       
- *
- */ 
+
 
 #ifndef STD_TYPES_H
 #define STD_TYPES_H
@@ -23,4 +15,3 @@ typedef double         f64;
 
 #endif /* STD_TYPES_H */
 
-/*** end of file ***/

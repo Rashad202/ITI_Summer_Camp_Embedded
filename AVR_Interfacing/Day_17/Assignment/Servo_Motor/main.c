@@ -1,8 +1,8 @@
 /*
  * main.c
  *
- *  Created on: Aug 21, 2023
- *      Author: Adham
+ *  Created on: Aug 23, 2023
+ *      Author: Rashad
  */
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
